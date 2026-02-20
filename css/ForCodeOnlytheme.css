@@ -1,0 +1,968 @@
+/*========== New Theme Import (Master) ==========*/
+@import url(../newtheme/css/core.css);
+@import url(../newtheme/css/variable.css);
+@import url(../newtheme/css/feather.css);
+@import url(../newtheme/css/material.css);
+@import url(../css/bootstrap/css/bootstrap.min.css);
+/*========== New Theme Import (Master) ==========*/
+
+
+/*========== New Theme (Master) ==========*/
+body{
+    color: var(--color-default);
+}
+body,
+.mainBackOffice,
+.mRightBackOffice{
+    background-color: #ecf2f3;
+}
+.allBackOffice .mainBackOffice {
+  min-height: calc(100dvh - 64px);
+}
+.mLeftBackOffice{
+    overflow: visible;
+}
+
+
+.cycle1Login {
+  width: 45px;
+  height: 45px;
+  background: none;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+.cycle1Login span {
+  font-size: 24px;
+}
+.cycle2Login {
+  width: 50px;
+  height: 50px;
+  background: none;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+.cycle3Login {
+  width: 50px;
+  height: 50px;
+  background: none;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+.cycle4Login {
+  width: 45px;
+  height: 45px;
+  background: none;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+.cycle4Login span {
+  font-size: 24px;
+}
+.cycleTContantLogin {
+  float: left;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 17px;
+  color: #666666;
+}
+.cycleBContantLogin {
+  float: left;
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 20px;
+}
+.cycle-bg-2 {
+  background-color: #17C653;
+}
+.cycle-bg-3 {
+  background-color: #F6C000;
+}
+
+
+.divRightInnerHome {
+    width: 100%;
+    min-width: 1180px;
+    padding: 0 25px;
+    margin: auto;
+    height: auto;
+}
+
+
+.divRightInnerTopBoxHome {
+width: calc(100% / 3);
+  background-color: #fff;
+  border: none;
+  padding: 20px;
+  height: 170px;
+  margin: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(24, 28, 33, 0.04);
+          box-shadow: 0 5px 8px 0 rgba(24, 28, 33, 0.04);
+}
+
+
+.fontTitlTbHome{
+    color: var(--color-default);
+}
+.fontContantTbHome {
+    font-size: 14px;
+  color: var(--color-default);
+  line-height: 1.6em;
+}
+
+
+.tbLeftMenu, .mLeftBackOffice, .navControl, .divLeftMenu, .divLeftSubMenu, .divmenu, .divLeftMenuOver{
+    width: 280px;
+}
+.navControl{
+    height: 100dvh;
+    overflow: visible;
+
+    position: fixed;
+    z-index: 9000;
+    width: 280px;
+    height: 100%;
+    top: 0px;
+    right: 0;
+    background-color: #fcfcfc;
+    border-radius: 5px 0 0 5px;
+    padding: 60px 0;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    -webkit-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+    -webkit-box-shadow: 0 5px 8px 0 rgba(24, 28, 33, 0.04);
+    box-shadow: 0 5px 8px 0 rgba(24, 28, 33, 0.04);
+}
+
+
+.divLeftMenu,
+.divLeftMenuOver{
+    background-color: transparent;
+}
+/* .divLeftMenuTb a span, 
+.divLeftMenuOver a span{
+    position: absolute;
+} */
+.divLeftMenuTb a, .divLeftMenuOver a {
+  font-size: 16px;
+  display: block;
+  position: relative;
+  height: auto;
+  line-height: 1.2em;
+  /* color: #646464; */
+  color: var(--color-default);
+  padding: 10px 20px;
+    padding-left: 20px;
+  padding-left: 35px;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.divLeftMenu:hover {
+    background: transparent;
+}
+.divLeftMenuOver a{
+    background-color: transparent;
+}
+.divLeftMenuTb a .fa{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8px;
+    left: 6px;
+    transform: inherit;
+}
+.divLeftMenuTb a img{
+    margin: 0;
+}
+
+
+.divRightInnerBigBoxHome{
+    margin-left: 0;
+    width: 100%;
+}
+
+
+.allBackOffice .footerBackOffice img {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.allBackOffice .footerBackOffice {
+  height: auto;
+  min-height: 64px;
+  /* padding: 1.25rem 0; */
+  border: none;
+  /* background: url("../img/static/bg-kanok.svg") center; */
+  background-size: cover;
+  background-color: #ecf2f3;
+  color: var(--color-default);
+  text-align: center;
+  /* display: flex; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  box-shadow: none;
+  z-index: 0;
+}
+.allBackOffice .footerBackOffice .d-flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.allBackOffice .footerBackOffice>div {
+  display: table;
+  width: 100%;
+}
+.allBackOffice .footerBackOffice>div>div {
+  padding: 15px 25px;
+  float: none;
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+.allBackOffice .footerBackOffice .imgLogo,
+.allBackOffice .footerBackOffice .divLogin {
+  color: #333;
+  margin: 15px 15px;
+  font-size: 12px;
+  line-height: 1.4em;
+}
+.allBackOffice .footerBackOffice .imgLogo {
+  text-align: left;
+}
+.allBackOffice .footerBackOffice .divLogin {
+  text-align: right;
+  font-size: 11px;
+  font-weight: bold;
+  color: #bbb;
+  /* padding-right: 75px; */
+}
+.versionsmall{
+    color: #bbb !important;
+}
+
+
+.divRightNav{
+    background-color: transparent;
+    padding: 0;
+}
+.divRightNav > table,
+.divRightNav > table > tbody,
+.divRightNav > table > tbody > tr,
+.divRightNav > table > tbody > tr > td{
+    display: block;
+    width: 100%;
+}
+.divRightNav .divRightNavTb{
+    height: auto;
+    padding: 20px 0;
+}
+/* .divRightNav .divRightNavTb[align="right"]{
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 5px 8px 0 rgba(24, 28, 33, 0.04);
+    border-radius: 5px;
+    margin-bottom: 15px;
+} */
+.divRightNav .divRightNavTb[align="right"]{
+    padding: 0;
+}
+.divRightNav .divRightNavTb[align="right"] > table{
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 5px 8px 0 rgba(24, 28, 33, 0.04);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.divRightNav .divRightNavTb[align="right"] > table,
+.divRightNav .divRightNavTb[align="right"] > table > tbody,
+.divRightNav .divRightNavTb[align="right"] > table > tbody > tr{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.divRightNav .divRightNavTb[align="right"] > table > tbody > tr td{
+    flex-grow: 1;
+}
+.divRightNav .divRightNavTb[align="right"] > table > tbody > tr td:last-child{
+    flex-grow: 0;
+}
+.divRightNav .divRightNavTb[align="right"] > table > tbody > tr td select,
+.divRightNav .divRightNavTb[align="right"] > table > tbody > tr td input[type="text"]{
+    width: 100%;
+}
+/* .divRightNav .divRightNavTb[align="right"]{
+    display: flex;
+    justify-content: flex-end;
+} */
+ .divRightNav .divRightNavTb[align="right"]{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.divRightNav .divRightNavTb[align="right"] .menuSubMod:first-child{
+    /* padding-left: 20px; */
+}
+.divRightNav .divRightNavTb[align="right"] .menuSubMod:last-child{
+    /* padding-right: 20px; */
+}
+.divRightNav .divRightNavTb[align="right"] .menuSubMod{
+    margin: -50px 0 0 0;
+    height: 41px;
+    float: none;
+    background-color: transparent;
+    padding: 0 4px;
+    /* height: auto; */
+    box-shadow: none;
+    border-bottom: 1px solid var(--color-border);
+}
+.divRightNav .divRightNavTb[align="right"] .menuSubMod a{
+    display: block;
+    height: 40px;
+    background-color: #efefef;
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    border-radius: 5px 5px 0 0;
+    color: #999 !important;
+    font-weight: 600;
+}
+.divRightNav .divRightNavTb[align="right"] .menuSubMod.active a{
+    background-color: var(--color-primary);
+    color: #fff !important;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+
+.divRightNav > table > tbody{
+    width: 100%;
+}
+.divRightNav > table > tbody > tr > td{
+    width: 100%;
+    display: block;
+}
+.divRightNavTb .inputContantTb{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-dark);
+}
+.divLeftMenuOver a {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background-color: #267ce808;
+}
+.divLeftMenuOver a .fa{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divRightHead.fixed{
+    left: 0;
+    top: 85px;
+}
+.divRightHead.fixed .fontHeadRight{
+    top: -10px;
+    position: relative;
+    font-size: 17px;
+    color: var(--color-dark);
+}
+.divRightNav.fixed .divRightNavTb{
+    padding: 0;
+}
+.divRightHead.fixed table td{
+    height: auto !important;
+}
+
+
+.tbBoxViewBorder{
+    border-radius: 5px;
+}
+
+
+.fontContantTbNav,
+.fontContantTbNav a{
+    color: var(--color-default);
+}
+.fontContantTbNav, 
+.divRightNavTb{
+    font-size: 14px;
+}
+
+
+.fontHeadRight{
+    color: var(--color-primary);
+    font-size: 20px;
+}
+
+
+
+.divRightHead{
+    height: auto;
+}
+
+
+.divRightContantOverTb a{
+    color: var(--color-dark);
+    font-weight: 600;
+}
+.fontContantTbupdate{
+    font-size: 14px;
+    color: var(--color-dark);
+}
+.fontContantTbTime{
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
+
+.divRightManage{
+    padding: 0 3px;
+}
+.divRightNavTb .inputContantTb{
+    padding-left: 10px;
+}
+
+
+.btnAdd, .btnDel, .btnSort, .btnBack, .btnSave, .btnExport, .btnExportPdf, .btnHistory, .btnEditView, .btnSync{
+    width: 40px;
+    height: 40px;
+}
+.btnSearch{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.fontContantTbEnable{
+    color: var(--color-success);
+}
+
+
+/* Card */
+.card-permis > tbody > tr + tr > td{
+    padding: 0 15px 15px 15px;
+    background-color: var(--color-primary);
+}
+.card-permis tr + tr > td table{
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.card-permis tr + tr > td table .fontTitlTbRight{
+    color: var(--color-default);
+}
+.card-permis tr + tr > td table td label{
+    cursor: pointer;
+}
+.card-permis tr + tr > td table tr:last-child td{
+    border-bottom: none;
+}
+
+
+/* Table */
+.divRightTitleTbL, .divRightTitleTb, .divRightTitleTbR{
+    border-bottom: none;
+}
+.divSubOverTb{
+    background-color: #f5f9f9;
+}
+.divOverTb:hover,
+.divSubOverTb:hover{
+    background-color: #ecf2f3;
+}
+
+
+/* Form */
+.formInputContantTb{
+    height: 40px;
+    border-color: var(--color-border);
+}
+.formInputContantTbShot{
+    height: 40px;
+    border-color: var(--color-border);
+}
+.formTextareaContantTb{
+    border-color: var(--color-border);
+}
+.divRightNavTb .inputContantTb{
+    border-color: var(--color-border);
+}
+.formInputSearch{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
+}
+.formInputSearchStyle{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--color-border);
+    width: 100%;
+}
+
+
+.divSortDrop {
+  height: auto;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+
+.formEndContantTb{
+    border-top: none;
+    padding: 0;
+}
+a[href="#defTop"]{
+    font-family: var(--font-family);
+    color: var(--color-dark);
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+    display: block;
+    text-align: right;
+}
+a[href="#defTop"] img{
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+}
+.table-responsive{
+    overflow-y: hidden;
+}
+
+
+
+.input-group{
+    width: 78%;
+}
+.input-group a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    background-color: #ddd;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: #fffc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+
+.divRightHeadSearch{
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+
+.divRightHeadSearch td{
+    padding: 0 !important;
+}
+.divRightHeadSearch td input{
+    margin-bottom: 0 !important;
+}
+.divRightHeadSearch table{
+    padding-top: 0 !important;
+}
+.divRightHeadSearch table,
+.divRightHeadSearch table tbody{display: block;}
+.divRightHeadSearch table tbody tr{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.divRightHeadSearch table tbody tr + tr{
+    margin-top: 10px;
+}
+.divRightHeadSearch table tbody td{
+    width: 50% !important;
+    flex-grow: 1;
+}
+.divRightHeadSearch table tbody td.bottonSearchStyle{
+    flex-grow: 0;
+    width: 40px !important;
+}
+
+
+.divRightInnerBigBoxHome .divRightTitleHomeBoxAll > tbody > tr:first-child > td{border-bottom: none;}
+
+
+/* #tallContent{
+    width: 100dvw;
+    background-color: #000;
+}
+#tallContent span{
+    background-color: #ff0;
+} */
+#boxWaittingContant{
+    width: 100dvw !important;
+    /* background-color: #000; */
+}
+#boxWaittingContant span{
+    font-size: 14px !important;
+}
+#boxWaittingContant img{
+    width: 80px !important;
+}
+
+
+.formFontNoteTxt{line-height: 1.3em; margin-top: 5px;}
+
+
+.btnSearch{border-color: var(--color-border);}
+
+
+
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  .mLeftBackOffice .logo a .title{font-size: 13px; line-height: 1.3em;}
+  .mLeftBackOffice .logo a small{font-size: 10px; line-height: 1.3em; white-space: nowrap; width: 50vw; overflow: hidden; text-overflow: ellipsis;}
+  .allBackOffice .mLeftBackOffice{padding: 10px 15px; height: 75px;}
+  .mLeftBackOffice .divLogin-img div{width: 35px; height: 35px;}
+  .mLeftBackOffice .divLogin > a{padding: 0 7.5px;}
+  .allBackOffice .mRightBackOffice{padding-top: 75px;}
+  .divRightNav .divRightNavTb{padding: 12px 0;}
+  .fontContantTbNav a{font-size: 12px;}
+  .fontContantTbNav, .divRightNavTb{font-size: 12px;}
+  .divRightInnerHome{min-width: inherit; padding: 0 15px;}
+  .mainBackOffice{min-width: inherit;}
+  .allBackOffice{min-width: inherit;}
+  .divDashboard-widget{margin: 0;}
+  .divRightInnerTopBoxHome{width: 100%; margin: 0; margin-bottom: 10px; padding: 15px; height: auto;}
+  .divRightInnerBigBoxHome{margin-top: 0 !important;}
+  .cycle1Login{width: 35px; height: 35px;}
+  .cycle1Login span{font-size: 16px;}
+  .cycle4Login{width: 35px; height: 35px;}
+  .cycle4Login span{font-size: 16px;}
+  .fontContantTbHome{font-size: 13px;}
+  .fontTitlTbHome{font-size: 15px;}
+  .divRightInnerBigBoxHome .divRightTitleHomeBoxAll .divRightTitleHome{padding: 0;}
+  .divRightInnerBigBoxHome .divRightTitleHomeBoxAll > tbody > tr:first-child > td{border-bottom: none;}
+  .allBackOffice .footerBackOffice .imgLogo{text-align: center; font-size: 11px; padding-bottom: 0;}
+  .allBackOffice .footerBackOffice{min-width: 100%;}
+  .allBackOffice .footerBackOffice > div{display: block;}
+  .allBackOffice .footerBackOffice > div > div{display: block; padding: 15px; text-align: center;}
+  .allBackOffice .footerBackOffice .imgLogo, .allBackOffice .footerBackOffice .divLogin{margin: 0;}
+  .allBackOffice .footerBackOffice .divLogin{text-align: center; padding-top: 0;}
+  
+  .mLeftBackOffice .logo a .title{padding-right: 15px;}
+
+    .divRightInnerBigBoxHome .divRightTitleHomeBoxAll{
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .divRightTrHome{
+        background-color: transparent;
+    }
+    .divRightTrHome>table>tbody>tr:first-child {
+        display: none;
+    }
+    .divRightTrHome>table>tbody>tr:nth-child(2){
+        margin-top: 0;
+        border-radius: 0 0 5px 5px;
+    }
+    .divRightTrHome>table>tbody>tr {
+        display: block;
+        border: 1px solid var(--color-border);
+        padding: 0;
+        border-radius: 5px;
+        margin-top: 7.5px;
+        overflow: hidden;
+    }
+    .divRightTrHome>table>tbody>tr>td {
+        border-bottom: none;
+        display: block;
+        /* font-size: 0.9em; */
+        text-align: right !important;
+        padding: 10px 15px !important;
+        height: auto;
+    }
+    .divRightTrHome>table>tbody>tr>td:nth-child(odd) {
+        background-color: #fafafa;
+    }
+    .divRightTrHome>table>tbody>tr>td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .divRightTrHome>table>tbody>tr>td:last-child {
+        border-bottom: 0;
+    }
+    .divLeftMenuTb a, .divLeftMenuOver a{font-size: 14px;}
+    .divLeftMenuTb a .material-symbols-outlined, .divLeftMenuOver a .material-symbols-outlined, .divLeftSubMenuTb a .material-symbols-outlined{font-size: 18px;}
+    .divBtnmenu-close{top: 15px;}
+
+    .btnAdd, .btnDel, .btnSort, .btnBack, .btnSave, .btnExport, .btnExportPdf, .btnHistory, .btnEditView, .btnSync{
+        width: 35px;
+        height: 35px;
+        margin-left: 7.5px;
+    }
+
+    .divRightMain.table-responsive > table tr td.formLeftContantTb{
+        /* color: var(--color-gray); */
+        /* color: #8496aa; */
+        margin-bottom: 4px;
+    }
+    .divRightHead.fixed .fontHeadRight{top: -5px;}
+    .divRightHead.fixed{top: 75px; height: 60px;}
+    .divRightNav.fixed{padding: 5px 15px; top: 103px;}
+    .divRightHead.fixed .btnAdd, .divRightHead.fixed .btnDel, .divRightHead.fixed .btnSort, .divRightHead.fixed .btnBack, .divRightHead.fixed .btnSave, .divRightHead.fixed .btnExport, .divRightHead.fixed .btnExportPdf, .divRightHead.fixed .btnHistory, .divRightHead.fixed .btnEditView, .divRightHead.fixed .btnSync{
+        width: 35px;
+        height: 35px;
+        margin-top: 7px;
+    }
+
+    .divRightNav .divRightNavTb[align="right"] > table{padding: 15px;}
+    .divRightNav.fixed .divRightNavTb[align="right"]{display: none !important;}
+    
+    .divRightNav .divRightNavTb[align="right"] > table > tbody > tr:last-child td:last-child input{width: 100%;}
+
+    .divRightHome{margin-top: 15px;}
+
+    .divRightNavTb{height: auto;}
+
+    .formInputContantTbShot{min-width: 100%;}
+
+    .list-unstyled{margin-bottom: 0;}
+    .list-unstyled li{font-size: 12px;}
+    .list-unstyled .feather{font-size: 12px; position: relative; top: 1px;}
+
+    .input-group{width: 100%;}
+    .input-group a{width: 100px;}
+    .divRightMain > .tbBoxViewBorder .input-group .formInputContantTb{width: calc(100% - 108px) !important;}
+    .menu-icon{max-width: 100%;}
+    .menu-icon .menu-icon-select a{width: 100px;}
+
+    .divRightHeadSearch table tbody td{width: 100% !important;}
+    .divRightHeadSearch table tbody tr{flex-direction: column;}
+    .divRightHeadSearch table tbody td.bottonSearchStyle{width: 100% !important;}
+    .divRightHeadSearch{padding: 15px;}
+
+    .divRightNav .divRightNavTb[align="right"] .menuSubMod{margin-top: 0; margin-bottom: 10px;}
+    .divRightNav .divRightNavTb[align="right"] .menuSubMod:first-child{padding-left: 0px; width: fit-content;}
+    .divRightNav .divRightNavTb[align="right"] .menuSubMod:last-child{padding-right: 4px;}
+    /* .divRightNav .divRightNavTb[align="right"]{gap: 0; margin-left: 0; justify-content: flex-start; flex-direction: revert;} */
+    .divRightNav .divRightNavTb[align="right"]{gap: 0; margin-left: 0; justify-content: flex-start;}
+    .menuSubMod,
+    .menuSubMod.active{min-width: auto !important;}
+    .menuSubMod a{min-width: auto;}
+    .divRightNav .menuSubMod{width: fit-content;}
+
+    input[value="sy_logs_time"] ~ .divRightNav ~ .divRightHeadSearch ~ .divRightHead ~ .list-responsive > table > tbody > tr:first-child{display: none !important;}
+
+    .divSortDrop{padding: 0;}
+    .divSortDrop .fontContantTbupdate{font-size: 12px;}
+    .divSortDrop .fontContantTbTime{font-size: 10px;}
+
+    .allBackOffice .mainBackOffice{min-height: calc(100dvh - 144px);}
+    .mRightBackOffice{min-height: calc(100dvh - 144px);}
+    
+    .divRightNav{padding: 0;}
+    .divRightNav.fixed{position: relative; top: 0; padding: 0;}
+    .divRightNav.fixed tr td.divRightNavTb:nth-child(2){display: flex !important;}
+    .divRightNav.fixed .divRightNavTb[align="right"] > table{margin-bottom: calc(15px + 50px);}
+    .divRightNav .divRightNavTb[align="left"]{height: 40px;}
+    .divRightHead{height: 50px;}
+    .divRightHead.fixed{position: fixed; height: 50px; padding: 0 15px; top: 75px; width: 100%;}
+    /* .divRightHead.fixed{position: relative; top: 75px; width: 100dvw; margin-left: -15px;} */
+    .divRightNav.fixed .fontContantTbNav{position: fixed; top: 104px;}
+    
+    .card-permis .list-responsive > table .formDivRadioR span{display: block;}
+    .card-permis .list-responsive > table > tbody > tr td img{margin-left: 0 !important;}
+
+    .boxHomeSortli .divRightTrHome table{margin-top: 0;}
+    .divRightTrHome{padding: 0; height: auto; min-height: 100px;}
+    
+    #boxHomeSort .divRightTrHome > table > tbody > tr > td{padding: 0 !important; font-size: 12px;}
+    #boxHomeSort .divRightTrHome > table > tbody > tr > td:first-child{text-align: center !important;}
+    #boxHomeSort .divRightTrHome > table > tbody > tr:last-child{margin-bottom: 10px;}
+}
+
+#boxHomeSort .divRightTrHome > table > tbody > tr:first-child{display: flex;}
+#boxHomeSort .divRightTrHome > table > tbody > tr{display: flex; border: none; border-radius: 0;}
+#boxHomeSort .divRightInnerBigBoxHome .divRightTitleHomeBoxAll .divRightTitleHome{padding: 0;}
+
+.boxHomeSortli .divRightTrHome > table > tbody > tr > td{background-color: transparent !important;}
+.boxHomeSortli .divRightTitleHomeBoxAll{background-color: #fff; border-radius: 5px;}
+.boxHomeSortli .divRightTrHome table tr td:first-child{color: var(--color-gray);}
+.boxHomeSortli .divRightTrHome table{margin-top: 0;}
+.boxHomeSortli .divRightTrHome table tr{border-bottom: none;}
+/* Edit Icon */
+.menu-icon .menu-icon-block {
+    width: 25%;
+}
+@media (max-width: 768px) {
+    .menu-icon .menu-icon-block {
+    width: 100%;
+}
+}
+/* Edit sub menu */
+.divLeftMenuOverNew {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3px;
+    float: none;
+    width: auto !important;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    height: auto;
+    min-height: 35px;
+    margin: 0;
+}
+.divLeftSubMenuOver {
+    min-width: inherit;
+    max-width: inherit;
+    width: 100%;
+    background-color: transparent;
+    color: var(--color-dark);
+}
+/* เอาจุดออก */
+.divLeftSubMenuTb a:before {
+    content: none !important;
+    display: none !important;
+    border: none !important;
+}
+.divLeftSubMenu a:hover, .divLeftSubMenuTb a:hover {
+    background-color: #f6f6f9;
+    color: var(--color-dark);
+}
+/* ลูกษรเมนู */
+.divLeftMenuTb a .fa{
+    top: 6.3px;
+}
+.divLeftSubMenuTb a span {
+    overflow: clip;
+    margin: 0px 5px 0px 0px;
+}
+.divLeftMenuTb a .fa.angle {
+    display:block;
+    margin-right: -20px;
+    /* top: 11px;
+    right: 0px;
+    left: auto; */
+}
+.divLeftMenuOverNew[onclick*="clickOutSubMenuLeft"] a .fa.angle {
+    align-content: end;
+}
+.divLeftMenuOverNew[onclick*="clickOutSubMenuLeft"] a .fa.angle {
+  -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transform-origin: center;
+    margin-right: -10px;
+}
+/* End ลูกษรเมนู */
+.submenu_txt{
+    margin-left: 20px;
+}
+/* END-Edit sub menu */
+@media (max-width: 1024px) { 
+    
+    .formEndContantTb {
+        display: block;       
+        width: 100%;          
+        text-align: center;   
+        padding: 20px 0;
+        background-color: transparent;
+        border: none;
+    }
+
+  
+    .formEndContantTb a {
+        font-size: 12px;
+        text-decoration: none;
+        /* display: inline-block; */
+    }
+    
+    .formEndContantTb img {
+        vertical-align: middle;
+    }
+}
+/*========== New Theme (Master) ==========*/
+
+/*========== Cutomize Zone (Site) ==========*/
+.loginNew-wrapper .login-form .body{
+    margin: 0 50px;
+}
+/*========== Cutomize Zone (Site) ==========*/

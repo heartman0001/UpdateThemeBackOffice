@@ -1,0 +1,138 @@
+/* start: sso btn 3-12-25 */
+
+.login-form .form-hr {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-form .form-hr::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #DEDEDE;
+}
+.login-form .form-hr::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #DEDEDE;
+}
+
+.login-form .form-hr p {
+  text-align: center;
+  width: max-content;
+  padding: 0 22px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  /* background-color: #ffffff; */
+  font-size: 16px;
+}
+
+.login-form .form-btn.mt-0 {
+  margin-top: 0 !important;
+}
+
+.login-form .btn-sso-login {
+  position: relative;
+  background-color: transparent;
+  border-color: transparent !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.login-form .btn-sso-login::before {
+  content: '';
+  background: linear-gradient(#f7b402 0%, #f76e00 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  -webkit-transition: All 200ms ease;
+  -moz-transition: All 200ms ease;
+  -o-transition: All 200ms ease;
+  border-radius: 5px;
+}
+
+.login-form .btn-sso-login:hover {
+  border-color: #f76e00 !important;
+  color: #f76e00;
+}
+
+.login-form .btn-sso-login:hover::before {
+  opacity: 0;
+}
+
+.login-form .btn-sso-login:hover .icon-sso.-hover {
+  opacity: 1;
+}
+
+.login-form .btn-sso-login:hover .icon-sso.-default {
+  opacity: 1;
+}
+
+.login-form .btn-sso-login span{
+  position: relative;
+  z-index: 10;
+}
+
+.login-form .btn-sso-login .icon-sso {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 13px;
+  -webkit-transition: All 200ms ease;
+  -moz-transition: All 200ms ease;
+  -o-transition: All 200ms ease;
+}
+
+.login-form .btn-sso-login .icon-sso img {
+  width: 100%;
+}
+
+.login-form .btn-sso-login .icon-sso.-hover {
+  opacity: 0;
+}
+
+@media (max-width: 1199px) {
+  .login-form .form-hr {
+    padding: 15px 0;
+  }
+
+  .login-form .form-hr p {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .loginNew-wrapper .d-flex {
+    height: 100%;
+  }
+
+  .loginNew-wrapper .col-right {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-form .btn-sso-login .icon-sso {
+    width: 35px;
+    left: 10px;
+  }
+}
+
+/* end: sso btn 3-12-25 */
